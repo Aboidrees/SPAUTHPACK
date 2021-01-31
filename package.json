@@ -1,0 +1,16 @@
+{
+  "name": "SPAPP",
+  "version": "1.0.0",
+  "description": "This is a SharePoint Client application and it is for testing",
+  "main": "index.js",
+  "author": "Muhammad Yousif",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-sp-auth": "^3.0.1",
+    "request-promise": "^4.2.6"
+  }
+}
